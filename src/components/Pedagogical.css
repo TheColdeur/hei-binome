@@ -1,0 +1,59 @@
+.pedagogical{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: var(--tertiary-color);
+    padding: 3.5em 0;
+}
+.title{
+    margin-bottom: .5em;
+}
+.pedagogical-description{
+    font-weight: 600;
+    height: fit-content;
+    width: 100%;
+    padding: 0 5em;
+    text-align: center;
+    line-height: 1.5em;
+    margin-bottom: 3em;
+}
+.manager{
+    width: 90%;
+    padding: 0 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+}
+.card img{
+    width: 12em;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: .5em solid rgb(215, 215, 215);
+    margin-bottom: 10%;
+}
+.card{
+    border: #fff 1px solid;
+    width: calc(100% / 3);
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    color: var(--primary-color);
+    border-radius: 20px;
+    padding: 1em 1em;
+}
+.card .name{
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+.card .status{
+    font-size: .9em;
+    font-weight: 600;
+}

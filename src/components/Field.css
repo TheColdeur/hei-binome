@@ -1,0 +1,43 @@
+.field{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 241, 241);
+    padding: 4em 5em;
+}
+.field-description{
+    font-weight: 600;
+    margin-bottom: 4em;
+}
+.study-field{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+.field-card img{
+    width: 10em;
+    aspect-ratio: 1/1;
+}
+.field-card{
+    width: calc(100% / 3);
+    height: 90vh;
+    text-align: center;
+    background: #fff;
+    padding: 1em 2em;
+    line-height: 1.6em;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+.field-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.field-card h1{
+    font-size: 1.5em;
+    color: var(--secondary-color);
+    margin-bottom: 1em;
+}
+.field-card p{
+    font-weight: 600;
+}

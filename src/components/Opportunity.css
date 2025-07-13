@@ -1,0 +1,23 @@
+.opportunity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 4em;
+}
+.opportunity-description{
+    width: 50%;
+}
+.opportunity-description p{
+    padding: 1em 0;
+    font-weight: 550;
+    line-height: 1.5em;
+}
+.opportunity .img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opportunity .img img{
+    width: 80%;
+}

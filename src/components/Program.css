@@ -1,0 +1,48 @@
+.program{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 1em;
+}
+.program .img{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.program img{
+    width: 80%;
+}
+.program .program-description{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    color: var(--primary-color);
+}
+.program .program-description h1{
+    font-size: 2.5em;
+    font-weight: 900;
+}
+.program .program-description p{
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+.program .program-description button{
+    background: transparent;
+    border: 3px solid var(--primary-color);
+    width: fit-content;
+    padding: .6em 1.5em;
+    font-size: 1.2em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    border-radius: 3px;
+}
+.program .program-description button:hover{
+    background: var(--primary-color);
+    color: #fff;
+}

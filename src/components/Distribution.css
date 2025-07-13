@@ -1,0 +1,38 @@
+.distribution{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4em 4em 4em;
+    gap: 1em;
+}
+.distribution .distribution-percentage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+.distribution-percentage .distribution-card{
+    width: calc(100% / 4);
+    height: 40vh;
+    background: rgb(253, 250, 240);
+    padding: 1em 2em;
+    border-radius: 20px;
+}
+.distribution-percentage .distribution-card h1{
+    font-size: 3em;
+    font-weight: 900;
+    color: var(--secondary-color);
+    margin-bottom: .3em;
+}
+.distribution-percentage .distribution-card p{
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+.distribution .img{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+}
+.distribution img{
+    width: calc(100% / 3);
+}

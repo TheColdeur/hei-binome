@@ -10,6 +10,7 @@
 :root{
     --primary-color: rgb(52, 40, 81);
     --secondary-color: rgb(218, 153, 31);
+    --tertiary-color: rgb(86, 86, 189);
 }
 ::-webkit-scrollbar{
   display: none; 
