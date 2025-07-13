@@ -1,0 +1,43 @@
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    width: 100vw;
+    padding: 5em 4em;
+}
+.img{
+    width: 50%;
+}
+.img img{
+    width: 92%;
+}
+.description{
+    width: 50%;
+}
+.title{
+    font-size: 2.5em;
+}
+.description-content{
+    padding: 0 1em;
+}
+.description-content div{
+    padding: 2.5em 0;
+}
+.description-content span{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+.description-content span i{
+    font-size: 3em;
+    color: var(--secondary-color);
+}
+.description-content span h4{
+    font-size: 1.5em;
+}
+.description-content p{
+    font-weight: 500;
+    font-size: 1.1em;
+}

@@ -1,0 +1,60 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+}
+.page-1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(66, 51, 103, 0.769), rgba(93, 71, 143, 0.966)), url(../assets/hei-banner-3.webp);
+    background-position: center;
+    padding: 2em 0;
+}
+.page-1 .title{
+    font-size: 3.5em;
+    padding: 1em 0 0 0;
+}
+.page-1 .description, .arrete{
+    width: 80%;
+    font-size: 1.3em;
+    font-weight: 550;
+    line-height: 1.5em;
+}
+.home-page-btn{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+.home-page-btn button{
+    padding: 1em 2.5em;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+}
+.home-page-btn button:hover{
+    opacity: .8;
+}
+.subscription-btn{
+    color: var(--primary-color);
+    background: #fff;
+}
+.schedule-btn{
+    color: #fff;
+    background: var(--secondary-color);
+}
+.program-btn{
+    background: var(--primary-color);
+    color: #fff;
+}
